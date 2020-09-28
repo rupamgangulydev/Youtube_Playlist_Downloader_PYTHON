@@ -123,7 +123,7 @@ ProgressMsz=Label(text="...............",font=('Verdana', 10, 'bold'),bg="white"
 ProgressMsz.grid(padx=10)
 devby=Label(root,text=" Developed by Rupam Ganguly ",bg="black",fg="white",font=('Verdana', 10, 'bold'))
 devby.grid()
-Btn = Button(root, text = "https://github.com/IamRupamGanguly",command=openweb,borderwidth=0, bg="white")
+Btn = Button(root, text = "https://github.com/rupamgangulydev",command=openweb,borderwidth=0, bg="white")
 Btn.grid(pady=5)
 Btn.bind("<Enter>", on_enter)
 Btn.bind("<Leave>", on_leave)
